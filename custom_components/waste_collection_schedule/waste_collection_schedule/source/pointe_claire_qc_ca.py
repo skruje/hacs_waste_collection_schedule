@@ -15,11 +15,13 @@ TEST_CASES = {
 }
 
 ICON_MAP = {
-    "Organic Waste": Icons.ORGANIC,
-    "Recyclables": Icons.RECYCLING,
-    "Household Waste": Icons.GENERAL_WASTE,
-    "Bulky Items": Icons.BULKY,
-    "Christmas Tree Collection": Icons.CHRISTMAS_TREE,
+    "Matières organiques": Icons.ORGANIC,
+    "Recyclage": Icons.RECYCLING,
+    "Déchets domestiques": Icons.GENERAL_WASTE,
+    "Encombrants": Icons.BULKY,
+    "Arbre de Noël": Icons.CHRISTMAS_TREE,
+    "Collecte de feuilles": Icons.GARDEN,
+    "Écocentre": Icons.EVENT,    
 }
 
 HOW_TO_GET_ARGUMENTS_DESCRIPTION = {
