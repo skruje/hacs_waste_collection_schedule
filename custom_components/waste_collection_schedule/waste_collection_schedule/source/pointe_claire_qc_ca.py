@@ -26,8 +26,8 @@ from waste_collection_schedule.retrievers import HttpGetRetriever
 from waste_collection_schedule.transformers import ICSTransformer
 
 _SECTOR_URL_MAP: dict[str, str] = {
-    "A": "https://espace.pointe-claire.ca/avis/collectes/v2/calendrier.ics?collects=2",
-    "B": "https://espace.pointe-claire.ca/avis/collectes/v2/calendrier.ics?collects=3",
+    "A": "https://espace.pointe-claire.ca/avis/collectes/v2/calendrier.ics?collects=2",  # codespell:ignore espace
+    "B": "https://espace.pointe-claire.ca/avis/collectes/v2/calendrier.ics?collects=3",  # codespell:ignore espace
 }
 
 
